@@ -98,11 +98,13 @@
 
 
   h1{
-      font-size: 36px;
+      font-size: 40px;
       letter-spacing: 3px;
       line-height: 400px;
       font-weight: 600;
-      color: #333;
+      color: #f0e7ea;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #fc7270;
   }
 
   h2{
@@ -110,6 +112,10 @@
       color: #1cb8eb;
       letter-spacing: 3px;
       font-weight: 500;
+  }
+
+  h3{
+    color:  #1cb8eb;
   }
 
   ul{
@@ -135,13 +141,18 @@
 
   .project_image{
       width: 80%;
-      padding-top: 60px;
+      margin-top: 60px;
+      border: 2px solid #fc7270;
   }
   
   .project_links{
       font-weight: bold;
       text-transform: uppercase;
       text-decoration: none;
+  }
+
+  #projects{
+    background-color: #fafafa;
   }
 
   a.project_links:hover{
@@ -182,12 +193,19 @@
 .fa-envelope,
 .fa-github,
 .fa-linkedin{
-    color: #1cb8eb;
+    color: #f0e7ea;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#fc7270;
+    text-shadow: 3px 3px 0 #fc7270;
 }
 
   /***************** DESKTOP STYLES START HERE ********************/
 
   @media only screen and (min-width: 900px){
+
+    h1{
+        font-size: 60px;
+    }
       i.fas.fa-bars{
           display: none;
       }
@@ -271,7 +289,7 @@
 
     .projects_title{
         text-align: left;
-        padding-left: 15%;
+        padding-left: 14%;
     }
 
     .project{

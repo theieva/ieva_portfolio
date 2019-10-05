@@ -1,0 +1,1 @@
+This is a portfolio website for Ieva Vega using HTML, CSS, and Javascript.
