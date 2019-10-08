@@ -174,9 +174,17 @@
       border-width: 1px;
       color: #1cb8eb;
       border-color:  #fc7270;
-      -webkit-box-shadow: 3px 3px 0  #fc7270;
-      box-shadow: 3px 3px 0  #fc7270;
+      -webkit-box-shadow: 4px 4px 0  #fc7270;
+      box-shadow: 4px 4px 0  #fc7270;
   }
+
+  button:focus {outline:0;}
+  
+  button:active{
+    -webkit-box-shadow: 1px 1px 0  #fc7270;
+    box-shadow: 1px 1px 0  #fc7270;
+}
+
 
   #contact{
     width: 100%;
@@ -324,6 +332,10 @@
       .links{
           display: block;
           float: left;
+      }
+
+      .contact_icons{
+        padding-bottom: 30px;
       }
 
       .contact_inner{

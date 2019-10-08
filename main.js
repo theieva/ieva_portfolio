@@ -8,4 +8,12 @@ function showMobileMenu() {
     }
   }
 
+/* Click to open encoded email address */
+
+function secretEmail(){
+  var localURL = window.atob("bWFpbHRvOmlldmFAZ3JleWVway5jb20=");
+    location.href = localURL;
+  }
+  
+
   

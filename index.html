@@ -14,7 +14,7 @@
 <body>
         <nav role="navigation">
            <a href="#home" class="active">
-               <img src="img/ieva_logo.png" class="logo">
+               <img src="img/ieva_logo.png" class="logo" alt="ieva vega logo">
             </a>
            <a href="javascript:void(0)" class="icon" onClick="showMobileMenu()" >
                <i class="fas fa-bars"></i>
@@ -40,13 +40,13 @@
                 <h2>About Me</h2>
                 <h3 class="coral">Skills</h3>
                 <ul>
-                    <li>HMTL/CSS</li>
+                    <li>HTML/CSS</li>
                     <li>jQuery</li>
                     <li>Javascript</li>
                 </ul>
             </div>
             <div id="skills_description">
-                <p>Hey there, I'm Ieva (yeh-vah) Vega. I'm a frontend web developer taking Thinkful's engineering course. I love solving problems, breaking complex concepts into digestible pieces, and turning ideas into useful digital products.<br><br>
+                <p>Hey there, I'm Ieva (yeh-vah) Vega. I'm a frontend web developer taking Thinkful's engineering course. I love solving problems, breaking complex concepts into digestible pieces, and working with teams to turn ideas into useful digital products.<br><br>
 
                 I've been building custom websites since 2014 and have a strong background in marketing. On the weekends I love baking, going on hikes, and watching anime.</p>
             </div>
@@ -60,9 +60,10 @@
                 </div>
                 <div class="desktop_right">
                     <h3>Naruto Quiz</h3>
-                    <p>Test your knowledge of this popular anime franchise with a simple quiz app built using <strong>jQuery</strong>.</p>
+                    <p>Test your knowledge of this popular anime franchise with a simple quiz app built using <strong>HTML, CSS, Javascript, and jQuery</strong>.</p>
                     <div class="links">
-                        <a href="https://theieva.github.io/naruto_quiz/" class="project_links" target="_blank"><button>Live Demo</button></a> <a href="https://github.com/theieva/naruto_quiz" class="project_links" target="_blank"><button class="margin_left_30">Code</button></a>
+                        <button onclick="window.location.href = 'https://theieva.github.io/naruto_quiz/'" class="project_links" target="_blank">Live Demo</button> 
+                        <button onclick="window.location.href = 'https://github.com/theieva/naruto_quiz'" class="project_links margin_left_30" target="_blank">Code</button>
                     </div>
                 </div>
             </div>
@@ -72,14 +73,13 @@
             <div class="desktop_left">
                 <h2>Contact Me</h2>
                 <h3 class="coral">Ieva Vega</h3>
-                <a href="mailto:ieva[at]greyepk.com" target="_blank"><i class="fas fa-envelope fa-2x contact_icons coral"></i></a>
+                <a href="javascript:secretEmail()"><i class="fas fa-envelope fa-2x contact_icons"></i></a>
                 <a href="https://github.com/theieva" target="_blank"><i class="fab fa-github fa-2x contact_icons coral"></i></a>
                 <a href="https://www.linkedin.com/in/ievaurbaite/" target="_blank"><i class="fab fa-linkedin fa-2x contact_icons coral"></i></a>
             </div>
             <div class="desktop_right"></div>
-          
-
         </section>
+        </main>
         <script type="text/javascript" src="main.js"></script>   
 </body>
 </html>
